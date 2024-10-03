@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/main.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -63,7 +64,6 @@
 
       <main class="setting-page">
         <div class="setting-page__header">
-          <!-- <div class="burger-menu"></div> -->
           <div class="setting-page__header-title">
             <h3 class="setting-page__header-title-name">Setting</h3>
           </div>
@@ -91,13 +91,71 @@
         </div>
 
         <div class="setting-page__header-mobile">
-           <div class="setting-page__header-mobile-preferences">
-            <div class="setting-page__burger-menu">
-               <img src="./assets/images/icons/burger.svg" alt="burger_menu">
-            </div>
+          <div class="setting-page__header-mobile-preferences">
+            <img
+              class="setting-page__burger-menu"
+              id="burgerMenu"
+              src="./assets/images/icons/burger.svg"
+              alt="burger_menu"
+            />
+
             <h5 class="setting-page__header-mobile-title">Setting</h5>
-            <img class="setting-page__header-mobile-avatar" src="./assets/images/icons/avatar.svg" alt="avatar">
-           </div>
+            <img
+              class="setting-page__header-mobile-avatar"
+              src="./assets/images/icons/avatar.svg"
+              alt="avatar"
+            />
+          </div>
+
+          <nav class="mobile-menu" id="navMenu">
+            <div class="logo">
+              <img src="./assets/images/Logo.svg" alt="logo" />
+            </div>
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/home.svg" alt="home" />
+                <p>Dashboard</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/transfer.svg" alt="home" />
+                <p>Transactions</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/user.svg" alt="home" />
+                <p>Accounts</p>
+              </li>
+              <li class="nav-list__item">
+                <img
+                  src="./assets/images/icons/economic-investment.svg"
+                  alt="home"
+                />
+                <p>Investments</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/credit-card.svg" alt="home" />
+                <p>Credit Cards</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/loan.svg" alt="home" />
+                <p>Loans</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/service.svg" alt="home" />
+                <p>Services</p>
+              </li>
+              <li class="nav-list__item">
+                <img src="./assets/images/icons/econometrics.svg" alt="home" />
+                <p>My Privileges</p>
+              </li>
+              <li class="nav-list__item">
+                <img
+                  src="./assets/images/icons/settings solid.svg"
+                  alt="home"
+                />
+                <p>Setting</p>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="setting-page__main">
           <div class="tabs">
