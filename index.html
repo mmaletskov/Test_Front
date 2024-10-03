@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="panel">
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/images/Logo.svg" alt="logo" />
+        </div>
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/home.svg" alt="home" />
+            <p>Dashboard</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/transfer.svg" alt="home" />
+            <p>Transactions</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/user.svg" alt="home" />
+            <p>Accounts</p>
+          </li>
+          <li class="nav-list__item">
+            <img
+              src="./assets/images/icons/economic-investment.svg"
+              alt="home"
+            />
+            <p>Investments</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/credit-card.svg" alt="home" />
+            <p>Credit Cards</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/loan.svg" alt="home" />
+            <p>Loans</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/service.svg" alt="home" />
+            <p>Services</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/econometrics.svg" alt="home" />
+            <p>My Privileges</p>
+          </li>
+          <li class="nav-list__item">
+            <img src="./assets/images/icons/settings solid.svg" alt="home" />
+            <p>Setting</p>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="setting-page">
+        <div class="setting-page__header">
+          <!-- <div class="burger-menu"></div> -->
+          <div class="setting-page__header-title">
+            <h3 class="setting-page__header-title-name">Setting</h3>
+          </div>
+          <div class="setting-page__header-preferences">
+            <input
+              class="setting-page__header-preferences-search"
+              type="search"
+              placeholder="Search for something"
+            />
+            <a class="setting-page__header-preferences-settings" href="">
+              <img src="./assets/images/icons/settings.svg" alt="settings" />
+            </a>
+            <a class="setting-page__header-preferences-notifications" href="">
+              <img
+                src="./assets/images/icons/notifications.svg"
+                alt="notifications"
+              />
+            </a>
+            <img
+              class="setting-page__header-preferences-avatar"
+              src="./assets/images/icons/avatar.svg"
+              alt="avatar"
+            />
+          </div>
+        </div>
+
+        <div class="setting-page__header-mobile">
+           <div class="setting-page__header-mobile-preferences">
+            <div class="setting-page__burger-menu">
+               <img src="./assets/images/icons/burger.svg" alt="burger_menu">
+            </div>
+            <h5 class="setting-page__header-mobile-title">Setting</h5>
+            <img class="setting-page__header-mobile-avatar" src="./assets/images/icons/avatar.svg" alt="avatar">
+           </div>
+        </div>
+        <div class="setting-page__main">
+          <div class="tabs">
+            <a class="tabs__item-link tabs__item-link-active" href=""
+              >Edit Profile</a
+            >
+            <a class="tabs__item-link" href="">Preferences</a>
+            <a class="tabs__item-link" href="">Security</a>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__item tabs__item-one">
+              <img
+                class="tabs__item-avatar"
+                src="./assets/images/icons/edit_avatar.svg"
+                alt="edit_avatar"
+              />
+            </div>
+            <div class="tabs__item tabs__item-two">
+              <form class="tabs__item-form">
+                <div class="column">
+                  <label class="form__label" for="">Your Name</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Charlene Reed"
+                  />
+                  <label class="form__label" for="">Email</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="charlenereed@gmail.com "
+                  />
+                  <label class="form__label" for="">Date of Birth</label>
+                  <select class="form__input" name="" id="">
+                    <option class="" value="">25 January 1990</option>
+                  </select>
+                  <label class="form__label" for="">Permanent Address</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="San Jose, California, USA"
+                  />
+                  <label class="form__label" for="">Postal Code</label>
+                  <input class="form__input" type="text" placeholder="45962" />
+                </div>
+
+                <div class="column">
+                  <label class="form__label" for="">User Name</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Charlene Reed "
+                  />
+                  <label class="form__label" for="">Password</label>
+                  <input
+                    class="form__input"
+                    type="password"
+                    placeholder="**********"
+                  />
+                  <label class="form__label" for="">Present Address</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="San Jose, California, USA"
+                  />
+                  <label class="form__label" for="">City</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="San Jose"
+                  />
+                  <label class="form__label" for="">Country</label>
+                  <input class="form__input" type="text" placeholder="USA" />
+                </div>
+              </form>
+              <div class="form-button">
+                <button class="button">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
